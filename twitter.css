@@ -1,0 +1,123 @@
+body{
+    background-color: black;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.logo{
+width: 648px;
+}
+
+.logo img{
+    width: 584px;
+}
+.title{
+    margin-bottom: 18px;
+}
+.title p{
+    color: white;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 84px;
+    width: 500px;
+}
+
+.title span{
+    font-size: 31px;
+    font-weight: 700;
+    color: white;
+}
+ .signup-button{
+    margin-bottom: 10px;
+ }
+.signup-button button{
+    width: 238px;
+    height: 36px;
+    border-radius: 15px;
+    border: none;
+}
+i{
+    margin-right: 5px;
+}
+
+.line-view{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    width: 238px;
+}
+
+.left-line{
+    height: 0.3px;
+    width: 100px;
+    background-color: rgb(180, 180, 180);
+    border-radius: 5px;
+}
+
+.line-view span {
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+}
+.right-line{
+    height: 0.3px;
+    width: 100px;
+    background-color: rgb(180, 180, 180);
+    border-radius: 5px;
+}
+
+.create-button button{
+    color: white;
+    font-weight: bold;
+    height: 36px;
+    width: 238px;
+    border: none;
+    background-color: #1d9bf0;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.create-button button:hover{
+    opacity: 0.8;
+}
+
+.form p{
+    color: #71767B;
+    font-size: 11px;
+    width: 300px;
+}
+
+a{
+    text-decoration: none;
+    color: #1d9bf0;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.login-section p{
+    font-size: 17px;
+    color: #e7e9ea;
+    font-weight: 700;
+}
+
+.login-button button{
+    height: 38px;
+    width: 238px;
+    background-color: transparent;
+    color: #1d9bf0;
+    font-weight: bold;
+    border: 1px solid rgb(83, 100, 113);
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.login-button button:hover{
+    opacity: 0.9;
+}
